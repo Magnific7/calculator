@@ -1,0 +1,39 @@
+
+body{
+    background-color:rgb(201, 212, 223);
+    display:flex;
+    justify-content: nowrap;
+}
+*{
+    max-resolution: 30px;
+    padding:10px;
+}
+.button{
+    widows: 30px;
+    height:30px;
+    font-size:40;
+    margin:10;
+    cursor:pointer;
+    background:rgb(245, 242, 242);
+    border:none;
+    color:rgb(44, 43, 40);
+}
+.textview{
+    widows:200;
+    margin:10;
+    font-size:25;
+    padding:10;
+    color:#207cad;
+}
+.main{
+   flex-wrap:nowrap;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%)tanslateY(-50%)
+}
+#tb{
+    background:rgb(44, 66, 82);
+    height:50%;
+}
+
